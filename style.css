@@ -7,7 +7,7 @@ h1{
 .orange-clr{
   color:orangered ;
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 150px;
 }
@@ -25,4 +25,31 @@ section{
   font-weight: 900px;
   padding: 10px 30px;
   border-radius: 5px;
+}
+
+.senior-item{
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left : 30px;
+  border-radius: 10px;
+  
+}
+h2{
+  font-size: 40px;
+}
+#junior-web{
+  border-left: 7px solid indianred;
+  border-image: linear-gradient(blue,salmon);
+  border-image-slice: 1;
+}
+#senior-web{
+  border-left:7px solid indianred;
+  border-image: linear-gradient(blue,salmon);
+  border-image-slice: 1;
+
+}
+footer p{
+  text-align: center;
 }
